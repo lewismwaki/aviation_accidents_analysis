@@ -69,56 +69,27 @@ See the full analysis in the [Jupyter Notebook](./aviation_accidents_analysis.ip
 
 ## Repository Structure
 
-├── .gitignore                          # Git ignore file for large datasets
-├── aviation_accidents_analysis.ipynb   # Main analysis notebook
-├── dashboard/                          # Dashboard files
-├── data/                              # Data files directory
-│   ├── AviationData.csv               # Main aviation accident dataset
-│   └── USState_Codes.csv              # US state reference data
-├── images/                            # Visualization outputs
-│   ├── IMC_VMC_Severity.png           # Weather condition analysis
-│   ├── Incident_Count_vs_Aircraft.png  # Aircraft incident frequency
-│   ├── Severity.Index_vs_Aircraft.png  # Aircraft safety metrics
-│   ├── Severity.Index_vs_EngineType.png # Engine safety comparison
-│   └── title.png                      # Project title image
-├── presentation/                      # Presentation materials
-└── README.md                         # Project overview (this file)
-
-
-todo
-notebook structure 
-
-- [x] Title  
----
-- [x] Introduction
----
-- [x] Business Problem Statement
----
-- [x] Objectives (mention 3-5 risk factors to analyze)
----
-- [x] Data Understanding
----
-- [x] Data Cleaning and Normalization
- - handle missing values
- - handle outliers //todo
- - normalize date/time or categorization
----
-- [x] Objectives (analyze risk factors mentioned)
- - intro and goal of objective
- - analyze
- - visualize findings
- - business recommendations towards the problem statement
- 
----
-- [x] Revisit objectives with new findings
----
-- [x] Conclusion
----
-- [x] Next Steps
-
-deliverables checklist to follow
-
-- [x] readme summary and pdf
-- [x] jupyter notebook and pdf
-- [ ] tableau dashboard images
-- [ ] slides and pdf 
+```
+├── .gitignore
+├── aviation_accidents_analysis.ipynb
+├── aviation_accidents_analysis.pdf
+├── dashboard
+│   ├── aircrafts_by_performance_in_vmc_weather.png
+│   ├── aircrafts_by_severity.png
+│   ├── engine_configurations_by _severity.png
+│   └── tableau-dashboard.png
+├── data
+│   ├── AviationData_Cleaned.csv
+│   ├── AviationData.csv
+│   └── USState_Codes.csv
+├── images
+│   ├── IMC_VMC_Severity.png
+│   ├── Incident_Count_vs_Aircraft.png
+│   ├── Severity.Index_vs_Aircraft.png
+│   ├── Severity.Index_vs_EngineType.png
+│   └── title.png
+├── presentation
+│   └── Data Analysis Report_ Low Risk Aircraft Investment Options.pdf
+├── README.md
+└── readme.pdf
+```
